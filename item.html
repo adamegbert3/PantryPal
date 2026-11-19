@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pantry Pal - Item</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Pantry Pal</h1>
+    </header>
+    <section id="add_item">
+        <div>
+            <h3>Item Name:</h3>
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" placeholder="Type item name here">
+
+            <h3>Category:</h3>
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" placeholder="Type category here">
+
+            <h3>Location:</h3>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Type location here">
+
+            <h3>Quantity Type:</h3>
+            <label for="quantityType">Quantity Type:</label>
+            <input type="text" id="quantityType" name="quantityType" placeholder="Type quantity type here">
+
+            <h3>Minimum Quantity Desired:</h3>
+            <label for="minQuantity">Minimum Quantity Desired:</label>
+            <input type="text" id="minQuantity" name="minQuantity" placeholder="Type minimum quantity here">
+
+
+            <h3>Barcode:</h3>
+            <label for="barcode">Barcode:</label>
+            <input type="text" id="barcode" name="barcode" placeholder="Type barcode here">
+
+
+            <h3>Brand:</h3>
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" placeholder="Type brand here">
+
+        </div>
+    </section>
+
+    <section id="add_item_buttons">
+        <h1>Sample Item</h1>
+
+        <h4>BRAND:</h4>
+        <p>Sample Brand</p>
+        <h4>BARCODE:</h4>
+        <p>Sample Barcode</p>
+        <h4>EXPIRATION DATE:</h4>
+        <label for="start-date">Select Date:</label>
+        <input type="date" id="start-date" name="start-date">
+
+
+
+
+        <h2>ITEM QUANTITY:</h2>
+
+        <h1>1</h1>
+
+        <button type="add_quantity">+</button>
+        <button type="minus_quantity">-</button>
+        <button type="submit">Save</button>
+        <button type="reset">Cancel</button>
+
+
+
+
+
 </body>
 </html>
 
